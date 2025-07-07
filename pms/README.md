@@ -50,7 +50,7 @@ Key Features:
 
 
 ## Screenshots
-<img src="https://drive.google.com/uc?export=view&id=1MBLMas7hnfZS1Voz4qQ8h0i8e3qMwpZ1" width="600"/>
+
 
 
 ![Screenshot 1](https://drive.google.com/uc?export=view&id=1MBLMas7hnfZS1Voz4qQ8h0i8e3qMwpZ1)  
