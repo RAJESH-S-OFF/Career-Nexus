@@ -121,7 +121,7 @@ Install my-project with npm
 Clone the project
 
 ```bash
-  git clone https://github.com/Jashhmehta/PlaceX-Placement-Management-System.git
+  git clone https://github.com/RAJESH-S-OFF/Career-Nexus.git
 ```
 
 Go to the project directory
