@@ -1,0 +1,130 @@
+.footer-container {
+  background: linear-gradient(to right, rgb(10, 178, 239), rgb(0, 128, 128)); /* Blue background as in the image */
+  color: white;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section-one,
+.footer-section-two,
+.contact-details {
+  flex: 1;
+  min-width: 150px;
+  margin-right: 50px;
+}
+
+.footer-section-one h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section-one ul,
+.footer-section-two ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section-one ul li,
+.footer-section-two ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-details {
+  text-align: left;
+  position: relative;
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5; /* Light background for the header part */
+  color: #0056b3; /* Blue text for the header */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.nec-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.contact-details h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Add icons before specific contact details */
+.contact-details p:nth-child(2)::before {
+  content: "📍"; /* Pin icon for address */
+  margin-right: 5px;
+}
+
+.contact-details p:nth-child(4)::before {
+  content: "📞"; /* Phone icon */
+  margin-right: 5px;
+}
+
+.contact-details p:nth-child(5)::before {
+  content: "📞"; /* Phone icon */
+  margin-right: 5px;
+}
+
+.contact-details p:nth-child(6)::before {
+  content: "✉️"; /* Email icon */
+  margin-right: 5px;
+}
+
+.footer-bottom {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.last-updated {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Ensure the last section doesn't have extra margin on the right */
+.contact-details:last-child {
+  margin-right: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-section-one,
+  .footer-section-two,
+  .contact-details {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
